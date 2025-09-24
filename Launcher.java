@@ -12,6 +12,4 @@ public class Launcher {
     private static void minus(int a, int b) {
         System.out.println(a - b);
     }
-
-
 }

@@ -6,6 +6,7 @@ public class Launcher {
         System.out.println(times(a, b));
         System.out.println(sub(a, b));
         System.out.println(mod(a, b));
+        justPrint();
     }
     private static int add(int a, int b) {
         return a + b;
@@ -25,5 +26,9 @@ public class Launcher {
 
     private static int mod(int a, int b) {
         return a % b;
+    }
+
+    private static void justPrint() {
+        System.out.println("justPrint");
     }
 }

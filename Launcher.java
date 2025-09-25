@@ -5,7 +5,6 @@ public class Launcher {
         minus(a, b);
         System.out.println(times(a, b));
         System.out.println(sub(a, b));
-        System.out.println("1234567890");
     }
     private static int add(int a, int b) {
         return a + b;

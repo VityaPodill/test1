@@ -21,4 +21,8 @@ public class Launcher {
     private static int sub(int a, int b) {
         return a / b;
     }
+
+    private static int mod(int a, int b) {
+        return a % b;
+    }
 }

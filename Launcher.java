@@ -29,6 +29,6 @@ public class Launcher {
     }
 
     private static void justPrint() {
-        System.out.println("justPrint");
+        System.out.println("justPrint ");
     }
 }

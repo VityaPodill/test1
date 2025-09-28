@@ -31,9 +31,4 @@ public class Launcher {
     private static int min(int a, int b) {
         return Math.min(a, b);
     }
-
-    private static void justPrint() {
-        System.out.println(" just   DO IT right NOW!");
-    }
-
 }

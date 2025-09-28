@@ -7,8 +7,9 @@ public class Launcher {
         System.out.println(sub(a, b));
         System.out.println(mod(a, b));
         justPrint();
-
         System.out.println(min(a, b));
+
+        System.out.println(maxNumber(a, b));
     }
     private static int add(int a, int b) {
         return a + b;
@@ -36,5 +37,9 @@ public class Launcher {
 
     private static void justPrint() {
         System.out.println(" just   DO IT right NOW!");
+    }
+
+    private static int maxNumber(int a, int b) {
+        return Math.max(a, b);
     }
 }

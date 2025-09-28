@@ -27,8 +27,4 @@ public class Launcher {
     private static int mod(int a, int b) {
         return a % b;
     }
-
-    private static int min(int a, int b) {
-        return Math.min(a, b);
-    }
 }

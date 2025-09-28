@@ -6,7 +6,6 @@ public class Launcher {
         System.out.println(times(a, b));
         System.out.println(sub(a, b));
         System.out.println(mod(a, b));
-        justPrint();
         System.out.println(min(a, b));
     }
     private static int add(int a, int b) {

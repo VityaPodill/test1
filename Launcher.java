@@ -6,7 +6,7 @@ public class Launcher {
         System.out.println(times(a, b));
         System.out.println(sub(a, b));
         System.out.println(mod(a, b));
-        System.out.println(max(a, b));
+        System.out.println(min(a, b));
     }
     private static int add(int a, int b) {
         return a + b;
@@ -22,13 +22,5 @@ public class Launcher {
 
     private static int sub(int a, int b) {
         return a / b;
-    }
-
-    private static int mod(int a, int b) {
-        return a % b;
-    }
-
-    private static int max(int a, int b) {
-        return Math.max(a, b);
     }
 }

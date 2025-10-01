@@ -8,6 +8,7 @@ public class Launcher {
         System.out.println(max(a, b));
 
         System.out.println(a);
+        System.out.println(isBigger(a, b));
     }
 
     //=========================
@@ -29,5 +30,9 @@ public class Launcher {
 
     private static int max(int a, int b) {
         return Math.max(a, b);
+    }
+
+    private static boolean isBigger(int a, int b) {
+        return a > b;
     }
 }

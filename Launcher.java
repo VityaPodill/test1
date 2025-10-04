@@ -11,7 +11,6 @@ public class Launcher {
         System.out.println(isBigger(a, b));
         //----------
         //++++++++
-         System.out.println(isBigger(a, b));
     }
     private static int add(int a, int b) {
         return a + b;

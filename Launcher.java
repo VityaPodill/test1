@@ -1,6 +1,6 @@
 public class Launcher {
     public static void main(String[] args) {
-        int a = 5, b = 3;
+        int a = 15, b = 13;
         System.out.println(add(a, b));
         minus(a, b);
         System.out.println(times(a, b));

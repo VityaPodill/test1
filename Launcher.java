@@ -7,6 +7,7 @@ public class Launcher {
                 System.out.println("YES 111");
                 break;
             } else if (i == lc - ld) System.out.println("N0");
+            //-----------------------
         }
     }
 }

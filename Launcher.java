@@ -6,8 +6,6 @@ public class Launcher {
             if (c.substring(i, i + ld).equals(d)) {
                 System.out.println("YES 111");
                 break;
-                //=======
-                //---------
             } else if (i == lc - ld) System.out.println("N0");
         }
     }
